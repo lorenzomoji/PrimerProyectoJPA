@@ -35,7 +35,6 @@ public class LlibreOpsBasic {
 	public void alta (String isbn, String autor, Integer pagines, Recomanacio recomanacio, String titol) {
 		Llibre carrega = new Llibre();
 		em.persist(carrega);
-		
 	}
 	
 	/**
